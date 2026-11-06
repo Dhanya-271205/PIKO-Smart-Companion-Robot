@@ -1,0 +1,70 @@
+
+/* Main application */
+#root {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/* General styling */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #f3eee5;
+  font-family: Arial, sans-serif;
+  color: #29251f;
+}
+
+/* Headings */
+h1 {
+  color: #493b2c !important;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+h2 {
+  color: #594735 !important;
+  font-size: 22px;
+  margin-bottom: 14px;
+}
+
+p {
+  color: #71695e;
+  line-height: 1.6;
+}
+
+/* Slider controls */
+input[type="range"] {
+  accent-color: #a66b32;
+  cursor: pointer;
+  width: 180px;
+  margin-top: 12px;
+}
+
+/* Camera preview */
+.camera-view {
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 19px;
+  }
+
+  input[type="range"] {
+    width: 150px;
+  }
+}
